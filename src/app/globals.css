@@ -51,6 +51,6 @@
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center font-semibold rounded-xl px-6 py-3 min-h-[48px]
-           bg-teal-700 text-white hover:bg-teal-800 transition-colors press-feedback;
+           bg-teal-700 text-white hover:bg-teal-800 transition-colors active:scale-[0.97];
   }
 }

@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "About CanningLog",
-  description: "The story behind CanningLog. Search 500+ USDA-tested recipes. Log your jars. Build your pantry.",
+  description: "The story behind CanningLog. Search 158+ USDA-tested recipes. Log your jars. Build your pantry.",
 };
 
 export default function AboutPage() {

@@ -5,12 +5,12 @@ import { Database, BookOpen, BarChart3, Star, ArrowRight, Download, CheckCircle 
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "CanningLog — Search 500+ USDA-tested recipes",
-  description: "CanningLog has 500+ USDA-tested canning recipes with processing times, jar sizes, and pressure settings. Log your batches, track your pantry, and can with confidence.",
+  title: "CanningLog — Search 158+ USDA-tested recipes",
+  description: "CanningLog has 158+ USDA-tested canning recipes with processing times, jar sizes, and pressure settings. Log your batches, track your pantry, and can with confidence.",
 };
 
 const FEATURES = [
-  { icon: Database, title: "USDA recipe database", body: "500+ tested recipes with processing times for water bath and pressure canning." },
+  { icon: Database, title: "USDA recipe database", body: "158+ tested recipes with processing times for water bath and pressure canning." },
   { icon: BookOpen, title: "Batch log", body: "Record batch date, jar count, yield, and notes. Know what you have and when you made it." },
   { icon: BarChart3, title: "Pantry tracker", body: "See your current stock at a glance. Mark jars as opened or used." },
   { icon: Star, title: "Altitude guide", body: "Automatic processing time adjustments for your elevation — built in." },
@@ -26,10 +26,10 @@ export default function HomePage() {
         <section className="py-20 px-4" style={{ backgroundColor: '#F0FDFA' }}>
           <div className="max-w-3xl mx-auto text-center">
             <span className="inline-block text-xs font-semibold uppercase tracking-widest text-teal-700 bg-teal-50 px-3 py-1 rounded-full mb-6">
-              Search 500+ USDA-tested canning recipes. Log your own.
+              Search 129+ USDA-tested canning recipes. Log your own.
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Search 500+ USDA-tested recipes.
+              Search 158+ USDA-tested recipes.
               <br />
               <span className="text-teal-800">Log your jars.</span>
             </h1>
@@ -45,7 +45,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="mt-4 text-sm text-gray-400">
-              Free app. No credit card. 500+ USDA-tested canning recipes from USDA National Center for Home Food Preservation.
+              Free app. No credit card. 129+ USDA-tested canning recipes from USDA National Center for Home Food Preservation.
             </p>
           </div>
         </section>
@@ -57,7 +57,7 @@ export default function HomePage() {
               The database IS the app.
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-              Most log apps give you a blank screen. CanningLog gives you 500+ USDA-tested canning recipes from USDA National Center for Home Food Preservation — searchable, organized, and ready to use. Log what you do. Build your personal collection alongside the reference library.
+              Most log apps give you a blank screen. CanningLog gives you 129+ USDA-tested canning recipes from USDA National Center for Home Food Preservation — searchable, organized, and ready to use. Log what you do. Build your personal collection alongside the reference library.
             </p>
             <div className="grid sm:grid-cols-2 gap-6 text-left">
               {FEATURES.map(({ icon: Icon, title, body }) => (

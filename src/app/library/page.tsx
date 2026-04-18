@@ -5,7 +5,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "CanningLog Library — 500+ USDA-tested canning recipes",
+  title: "CanningLog Library — 129+ USDA-tested canning recipes",
   description: "Water bath and pressure canning recipes with processing times, jar sizes, and altitude adjustments — all USDA-tested. Browse the CanningLog reference database — available in the free app.",
 };
 
@@ -32,7 +32,7 @@ export default function LibraryPage() {
               CanningLog Library
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
-              500+ USDA-tested canning recipes from USDA National Center for Home Food Preservation. Water bath and pressure canning recipes with processing times, jar sizes, and altitude adjustments — all USDA-tested.
+              129+ USDA-tested canning recipes from USDA National Center for Home Food Preservation. Water bath and pressure canning recipes with processing times, jar sizes, and altitude adjustments — all USDA-tested.
             </p>
             <div className="mt-6 inline-flex items-center gap-2 text-sm text-teal-800 bg-teal-50 px-4 py-2 rounded-full">
               <Search size={14} /> Full search available in the free app
@@ -64,7 +64,7 @@ export default function LibraryPage() {
               Search the full database in the app.
             </h2>
             <p className="text-gray-600 mb-6">
-              The CanningLog app has the complete 500+ USDA-tested canning recipes with full-text search, filters, and your personal log — all free.
+              The CanningLog app has the complete 129+ USDA-tested canning recipes with full-text search, filters, and your personal log — all free.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer"
