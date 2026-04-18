@@ -89,6 +89,25 @@ const FAQS = [
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "CanningLog",
+            "applicationCategory": "LifestyleApplication",
+            "operatingSystem": "iOS, Android",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            },
+            "description": "USDA-tested canning recipes for 200+ foods. Log your batches, track yields, and build a safe home canning reference.",
+            "url": "https://www.canninglog.com"
+          })
+        }}
+      />
       <SiteNav />
       <main id="main-content" className="pt-20">
 
